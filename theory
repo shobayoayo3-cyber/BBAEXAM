@@ -1,0 +1,19 @@
+Relative Positioning (position: relative)
+Relative positioning moves an item from where it normally sits on the page without disturbing anything else. Think of it like sliding a plate slightly across your table—it moves, but the space it originally occupied remains reserved so nothing else slides into it. You would use relative positioning for minor visual tweaks, like nudging an icon down two pixels to align with text, or to set up a parent container as an anchor for child elements.
+
+Absolute Positioning (position: absolute)
+Absolute positioning completely lifts an item off the page layout so surrounding elements act as if it is not even there. It places the item relative to its nearest positioned parent container (a parent set to `relative`). Think of it like placing a sticker directly on top of a photo frame. A common scenario for absolute positioning is adding a "Sale" badge or a close button (X) inside the top-right corner of a card container.
+
+
+
+
+
+
+var (The Old Way)
+var belongs to the entire function it is created in, ignoring boundaries like `if` statements or loops. You can re-declare and change it anytime, which often causes accidental bugs. Avoid using `var` in modern code.
+
+*let (The Flexible Choice)
+let is strictly limited to the block of code `{}` where you define it. You can change its value later, but you cannot re-declare it in the same block. Use `let` for values that need to update, like counters or scores.
+
+const (The Default Choice)
+const is also block-scoped, but its value is fixed and cannot be changed once created. Use `const` by default for almost everything—like settings, math formulas, or reference elements—to protect your code from accidental changes.
