@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function LogIn() {
     return (
         <>
-        <div className="mt-100 m-auto w-200 flex flex-col justify-center items-center bg-white p-10 ">
+        <div className="mt-80 m-auto w-200 flex flex-col justify-center items-center bg-white p-10 ">
             <div className="flex justify-center items-center">
                 <img src="/iconexam.png" alt="Exam platform" />
             </div>

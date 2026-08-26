@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function SignUp() {
     return (
-        <div className="mt-60 w-auto text-[20px] ">
+        <div className="mt-30 w-auto text-[20px] ">
             <div className="m-auto h-auto w-250 rounded-[12px] p-20 bg-white">
                <img src="/iconexam.png" alt="Exam platform" />
                <div className="text-[60px] font-[600]">Sign Up</div>
